@@ -1,9 +1,15 @@
 /*
 =============== 
+Fonts
+===============
+*/
+@import url("https://fonts.google.com/specimen/Raleway");
+@import url("https://fonts.google.com/specimen/Open+Sans");
+/*
+=============== 
 Variables
 ===============
 */
-
 :root {
   /* primary colors */
   --clr-dark-blue-1: hsl(217, 28%, 15%);
@@ -16,4 +22,45 @@ Variables
   --light: hsl(0, 100%, 63%);
   /* Neutral colors */
   --white: hsl(0, 0%, 100%);
+  /* fonts */
+  --raleway: "Raleway";
+  --openSans: "Open Sans";
+  --mobile-font-weight: 400;
+  --desktop-font-weight: 700;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--openSans);
+  font-weight: var(----desktop-font-weight);
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.btn {
+  background: linear-gradient(to right, var(--cyan), var(--blue));
+  color: var(--white);
+  padding: 15px 60px;
+  display: inline-block;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: 0.5s ease;
+}
+
+btn:hover {
+  transform: scale(1.1);
 }
