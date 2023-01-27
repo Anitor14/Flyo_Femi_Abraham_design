@@ -1,0 +1,19 @@
+/*
+=============== 
+Variables
+===============
+*/
+
+:root {
+  /* primary colors */
+  --clr-dark-blue-1: hsl(217, 28%, 15%);
+  --clr-dark-blue-2: hsl(218, 28%, 13%);
+  --clr-dark-blue-1: hsl(216, 53%, 9%);
+  --clr-dark-blue-1: hsl(219, 30%, 18%);
+  /* Accent Colors */
+  --cyan: hsl(176, 68%, 64%);
+  --blue: hsl(198, 60%, 50%);
+  --light: hsl(0, 100%, 63%);
+  /* Neutral colors */
+  --white: hsl(0, 0%, 100%);
+}
