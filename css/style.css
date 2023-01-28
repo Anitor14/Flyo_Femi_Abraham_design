@@ -40,6 +40,7 @@ Variables
 body {
   font-family: var(--openSans);
   font-weight: var(----desktop-font-weight);
+  background: var(--clr-dark-blue-2);
 }
 
 ul {
