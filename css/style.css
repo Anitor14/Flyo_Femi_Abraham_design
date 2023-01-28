@@ -40,7 +40,8 @@ Variables
 body {
   font-family: var(--openSans);
   font-weight: var(----desktop-font-weight);
-  background: var(--clr-dark-blue-2);
+  /* background: var(--clr-dark-blue-2); */
+  background: #202a3c;
 }
 
 ul {
@@ -64,4 +65,39 @@ a {
 
 btn:hover {
   transform: scale(1.1);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-center {
+  /* width: 90%; */
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14%;
+}
+.nav-img {
+  width: 100%;
+}
+.nav-items {
+  width: 20%;
+}
+.nav-items ul {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
 }
