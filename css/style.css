@@ -149,3 +149,29 @@ section {
   margin: 15px auto;
   font-weight: 200;
 }
+.section-functions{
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+}
+.div-center{
+  border: 2px solid yellow;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0px 20px;
+}
+.flex-items{
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 610px;
+  height: 10vh;
+}
+.flex-img{
+  /* width: 200px; */
+}
