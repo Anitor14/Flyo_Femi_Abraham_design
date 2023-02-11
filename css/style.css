@@ -260,3 +260,73 @@ section {
 .link-div svg:hover {
   color: white;
 }
+
+/* section comment */
+.section-comment {
+  color: white;
+  /* border-top: 1px solid white; */
+}
+
+.section-comment .div-center {
+  position: relative;
+  padding: 20px;
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-quote {
+  position: absolute;
+  top: 7px;
+  left: 76px;
+  z-index: -10000000;
+}
+
+.section-comment .div-box {
+  background-color: grey;
+  height: 180px;
+  width: 300px;
+  margin: 15px;
+  padding: 20px 12px;
+  transition: 0.5s ease;
+}
+.section-comment .div-box:hover {
+  transform: scale(1.05);
+}
+.div-box p {
+  font-size: 12px;
+  width: 80%;
+}
+.div-box .div-mini-profile {
+  margin-top: 18px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.div-profile-image img {
+  border-radius: 50%;
+  width: 30px;
+  margin-left: 0px !important;
+  margin: auto 10px;
+}
+
+.div-profile-image {
+  /* margin-right: 10px; */
+  padding: 0px;
+  margin: 0px;
+}
+.div-profile-cotent {
+  align-content: center;
+  margin: auto 0;
+}
+.div-profile-cotent h4 {
+  font-weight: bold;
+  font-size: 10px;
+}
+.div-profile-cotent p {
+  font-size: 8px;
+  width: 100%;
+}
