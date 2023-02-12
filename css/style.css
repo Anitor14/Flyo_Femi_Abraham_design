@@ -266,10 +266,10 @@ section {
 .section-comment {
   color: white;
   /* border-top: 1px solid white; */
+  /* position: relative; */
 }
 
 .section-comment .div-center {
-  /* position: relative; */
   padding: 20px;
   width: 90vw;
   margin: 0 auto;
@@ -278,9 +278,16 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+.div-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .section-comment .div-box {
   background-color: grey;
+  border-radius: 5px;
   height: 180px;
   width: 300px;
   margin: 15px;
@@ -333,4 +340,55 @@ section {
 .div-profile-cotent p {
   font-size: 8px;
   width: 100%;
+}
+.div-input {
+  position: relative;
+  top: 126px;
+  background: grey;
+  width: 65vw;
+  height: 230px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+.div-input-content {
+  text-align: center;
+  margin: 0 80px;
+  padding: 10px;
+}
+.div-input-content h1 {
+  margin-bottom: 10px;
+}
+.div-input-content p {
+  line-height: 1.2;
+}
+
+.div-input form {
+  /* border: 2px solid red; */
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-input input {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 20px;
+  width: 60%;
+  margin-right: 25px;
+}
+
+.div-input button {
+  padding: 15px 40px;
+}
+
+footer {
+  background-color: #151e2b;
+  height: 300px;
 }
