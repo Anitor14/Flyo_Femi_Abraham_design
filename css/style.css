@@ -397,46 +397,113 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
+}
+
+footer p {
+  font-weight: 200;
 }
 
 footer .div-center {
   width: 95vw;
   margin: 0 auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 5%;
   padding: 15px;
-  margin-top: 75px; 
+  margin-top: 150px;
+  margin-bottom: 70px;
 }
 
 footer .footer-logo {
-  border: 1px solid yellow;
-  display:flex;
+  /* border: 1px solid yellow; */
+  display: flex;
   width: 90%;
   margin-bottom: 15px;
   padding: 15px;
 }
 
+.footer-logo img {
+  width: 10%;
+}
+
 footer .footer-content {
   display: flex;
   width: 90%;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   padding: 15px;
   justify-content: space-between;
-  align-items: flex-start
+  align-items: flex-start;
 }
 footer .location {
-display: inline-flex;
-justify-content: space-between;
-align-items: flex-start;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  column-gap: 20px;
 }
 .location i {
-  width: 5%
+  width: 5%;
+  padding-top: 5px;
 }
 .location p {
-  width:200px;
+  width: 330px;
+}
+
+footer .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 25px;
+  padding: 10px;
+}
+
+.contact p {
+  font-size: 12px;
+  margin-left: 25px;
+}
+.contact .telephone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 28px;
+}
+
+.contact .email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2px;
+}
+
+footer .about-us {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  row-gap: 10px;
+}
+
+footer .contact-us {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  row-gap: 10px;
+}
+
+footer .social-icons {
+  padding: 10px;
+  display: inline-flex;
+  column-gap: 12px;
+}
+
+.social-icons i {
+  font-size: 25px;
+}
+
+.contact p:hover {
+  font-weight: bold;
+  cursor: pointer;
 }
