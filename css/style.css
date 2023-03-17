@@ -437,6 +437,7 @@ footer .footer-content {
   padding: 15px;
   justify-content: space-between;
   align-items: flex-start;
+  /* font-weight: 100; */
 }
 footer .location {
   display: inline-flex;
@@ -506,4 +507,13 @@ footer .social-icons {
 .contact p:hover {
   font-weight: bold;
   cursor: pointer;
+}
+
+.about-us:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact-us:hover {
+  
 }
