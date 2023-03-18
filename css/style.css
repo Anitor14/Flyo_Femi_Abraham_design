@@ -234,23 +234,20 @@ section {
   padding: 1.25rem;
   width: 90vw;
   margin: 0 auto;
-  max-width: 1170px;
+  max-width: 73.125rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-@media (max-width: 31.25rem) {
+@media (max-width: 50rem) {
   .section-production .div-center {
-    border: 1px solid pink;
     flex-direction: column;
   }
 }
 .section-production .div-img {
   flex: 1;
-  /* width: 200px; */
   padding: 1.25rem;
-  /* border: 1px solid pink; */
 }
 .div-img img {
   width: 100%;
@@ -258,20 +255,19 @@ section {
 .div-content {
   flex: 1;
   padding: 1.25rem;
-  /* border: 1px solid purple; */
   margin: 15px;
 }
 
 .div-content h1 {
   width: 60%;
-  line-height: 28px;
-  margin-bottom: 15px;
+  line-height: 1.75rem;
+  margin-bottom: 0.938rem;
 }
 .div-content p {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .div-content p:nth-child(2) {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 .link-div {
   margin-top: 1.25rem;
@@ -298,69 +294,92 @@ section {
 /* section comment */
 .section-comment {
   color: white;
-  /* border-top: 1px solid white; */
-  /* position: relative; */
 }
 
 .section-comment .div-center {
   padding: 1.25rem;
-  width: 90vw;
+  width: 95%;
   margin: 0 auto;
-  max-width: 1170px;
-  /* border: 1px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
 .div-boxes {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 50rem) {
+  .div-boxes {
+    flex-direction: column;
+  }
+}
 .section-comment .div-box {
   background-color: grey;
   border-radius: 5px;
-  height: 180px;
-  width: 300px;
-  margin: 15px;
-  padding: 1.25rem 12px;
+  /* height: 11.25rem; */
+  width: 18.75rem;
+  margin: 0.938rem;
+  padding: 1.25rem 0.75rem;
   transition: 0.5s ease;
+}
+
+@media (max-width: 50rem) {
+  .section-comment .div-box {
+    width: 70%;
+  }
+}
+
+@media (max-width: 31.25rem) {
+  .section-comment .div-box {
+    width: 87%;
+  }
 }
 .quote-box {
   /* border: 1px solid blue; */
   position: relative;
 }
+
 .image-quote {
   position: absolute;
-  top: -32px;
-  left: -18px;
+  top: -2rem;
+  left: -1.125rem;
   z-index: -10000000;
+}
+
+@media (max-width: 31.25rem) {
+  .image-quote {
+    width: 8%;
+    top: -1.125rem;
+    left: -0.375rem;
+  }
 }
 .section-comment .div-box:hover {
   transform: scale(1.05);
 }
 .div-box p {
-  font-size: 12px;
+  font-size: 0.75rem;
   width: 80%;
 }
 .div-box .div-mini-profile {
-  margin-top: 18px;
+  margin-top: 1rem;
   display: flex;
   align-items: flex-end;
 }
 
 .div-profile-image img {
   border-radius: 50%;
-  width: 30px;
+  width: 1.875rem;
   margin-left: 0px !important;
-  margin: auto 10px;
+  margin: auto 0.625rem;
 }
 
 .div-profile-image {
   /* margin-right: 10px; */
-  padding: 0px;
-  margin: 0px;
+  padding: 0rem;
+  margin: 0rem;
 }
 .div-profile-cotent {
   align-content: center;
@@ -368,10 +387,10 @@ section {
 }
 .div-profile-cotent h4 {
   font-weight: bold;
-  font-size: 10px;
+  font-size: 0.625rem;
 }
 .div-profile-cotent p {
-  font-size: 8px;
+  font-size: 0.5rem;
   width: 100%;
 }
 .div-input {
@@ -379,13 +398,17 @@ section {
   top: 126px;
   background: grey;
   max-width: 60vw;
-  height: 230px;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 15px;
+}
+@media (max-width: 50rem) {
+  .div-input {
+    max-width: 87vw;
+  }
 }
 .div-input-content {
   text-align: center;
@@ -410,6 +433,13 @@ section {
   align-items: center;
 }
 
+@media (max-width: 50rem) {
+  .div-input form {
+    flex-direction: column;
+    gap: 0.875rem;
+  }
+}
+
 .div-input input {
   padding: 15px 1.25rem;
   border: none;
@@ -418,8 +448,24 @@ section {
   margin-right: 25px;
 }
 
+@media (max-width: 50rem) {
+  .div-input input {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
 .div-input button {
   padding: 15px 40px;
+}
+
+@media (max-width: 50rem) {
+  .div-input button {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1rem;
+    font-weight: bold;
+  }
 }
 
 footer {
