@@ -542,6 +542,13 @@ footer .location {
   }
   .location p {
     margin-left: 1rem;
+    width: 16rem;
+  }
+}
+
+@media (max-width: 24rem) {
+  .location p {
+    width: 11rem;
   }
 }
 
