@@ -38,8 +38,7 @@ Variables
 }
 
 body {
-  /* font-family: var(--raleway); */
-  font-family: cursive;
+  font-family: "Raleway", sans-serif;
   font-weight: var(----desktop-font-weight);
   /* background: var(--clr-dark-blue-2); */
   background: #202a3c;
