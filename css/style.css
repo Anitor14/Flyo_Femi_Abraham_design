@@ -543,7 +543,7 @@ footer .footer-content {
   justify-content: space-between;
   align-items: flex-start;
 }
-@media (max-width: 50rem) {
+@media (max-width: 51.3rem) {
   footer .footer-content {
     flex-direction: column;
   }
