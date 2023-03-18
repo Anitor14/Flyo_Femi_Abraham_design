@@ -310,6 +310,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 @media (max-width: 50rem) {
   .div-boxes {
@@ -395,7 +396,7 @@ section {
 }
 .div-input {
   position: relative;
-  top: 126px;
+  top: 7.875rem;
   background: grey;
   max-width: 60vw;
   border-radius: 0.625rem;
@@ -403,7 +404,7 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 15px;
+  padding: 0.938rem;
 }
 @media (max-width: 50rem) {
   .div-input {
@@ -412,12 +413,12 @@ section {
 }
 .div-input-content {
   text-align: center;
-  margin: 0 80px;
-  padding: 10px;
+  margin: 0 5rem;
+  padding: 0.063rem;
   width: 80%;
 }
 .div-input-content h1 {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 .div-input-content p {
   line-height: 1.2;
@@ -426,8 +427,8 @@ section {
 .div-input form {
   /* border: 2px solid red; */
   width: 80%;
-  margin: 10px;
-  padding: 10px;
+  margin: 0.625rem;
+  padding: 0.625rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -441,11 +442,11 @@ section {
 }
 
 .div-input input {
-  padding: 15px 1.25rem;
+  padding: 0.938rem 1.25rem;
   border: none;
   border-radius: 1.25rem;
   width: 60%;
-  margin-right: 25px;
+  margin-right: 1.563rem;
 }
 
 @media (max-width: 50rem) {
@@ -456,7 +457,7 @@ section {
 }
 
 .div-input button {
-  padding: 15px 40px;
+  padding: 0.938rem 2.5rem;
 }
 
 @media (max-width: 50rem) {
@@ -470,12 +471,10 @@ section {
 
 footer {
   background-color: #151e2b;
-  min-height: 400px;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid purple; */
 }
 
 footer p {
@@ -491,31 +490,38 @@ footer .div-center {
   align-items: center;
   flex-direction: column;
   gap: 5%;
-  padding: 15px;
-  margin-top: 150px;
-  margin-bottom: 70px;
+  padding: 0.938rem;
+  margin-top: 9.375rem;
+  margin-bottom: 4.375rem;
 }
 
 footer .footer-logo {
-  /* border: 1px solid yellow; */
   display: flex;
   width: 90%;
-  margin-bottom: 15px;
-  padding: 15px;
+  margin-bottom: 0.938rem;
+  padding: 0.938rem;
 }
 
 .footer-logo img {
-  width: 10%;
+  width: 10rem;
 }
 
+@media (max-width: 31.25rem) {
+  .footer-logo img {
+    width: 12rem;
+  }
+}
 footer .footer-content {
   display: flex;
-  width: 90%;
-  /* border: 1px solid green; */
-  padding: 15px;
+  width: 95%;
+  padding: 0.938rem;
   justify-content: space-between;
   align-items: flex-start;
-  /* font-weight: 100; */
+}
+@media (max-width: 50rem) {
+  footer .footer-content {
+    flex-direction: column;
+  }
 }
 footer .location {
   display: inline-flex;
@@ -525,10 +531,18 @@ footer .location {
 }
 .location i {
   width: 5%;
-  padding-top: 5px;
+  padding-top: 0.313rem;
 }
 .location p {
-  width: 330px;
+  width: 21.188rem;
+}
+@media (max-width: 50rem) {
+  .location i {
+    padding-left: 0.625rem;
+  }
+  .location p {
+    margin-left: 1rem;
+  }
 }
 
 footer .contact {
@@ -536,50 +550,79 @@ footer .contact {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  row-gap: 25px;
-  padding: 10px;
+  row-gap: 1.563rem;
+  padding: 0.625rem;
 }
-
+@media (max-width: 50rem) {
+  footer .contact {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
 .contact p {
-  font-size: 12px;
-  margin-left: 25px;
+  font-size: 0.75rem;
+  margin-left: 1.563rem;
 }
 .contact .telephone {
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: 28px;
+  column-gap: 1.75rem;
+}
+
+@media (max-width: 50rem) {
+  .contact .telephone p {
+    margin-left: 0rem;
+  }
 }
 
 .contact .email {
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: 2px;
+  column-gap: 0.125rem;
 }
 
 footer .about-us {
   display: flex;
   flex-direction: column;
-  padding: 5px;
-  row-gap: 10px;
+  padding: 0.313rem;
+  row-gap: 0.625rem;
+}
+
+@media (max-width: 50rem) {
+  footer .about-us {
+    margin-top: 2.5rem;
+  }
 }
 
 footer .contact-us {
   display: flex;
   flex-direction: column;
-  padding: 5px;
-  row-gap: 10px;
+  padding: 0.313rem;
+  row-gap: 0.625rem;
+}
+
+@media (max-width: 50rem) {
+  footer .contact-us {
+    margin-top: 2.5rem;
+  }
 }
 
 footer .social-icons {
   padding: 10px;
   display: inline-flex;
-  column-gap: 12px;
+  column-gap: 0.75rem;
+}
+
+@media (max-width: 50rem) {
+  footer .social-icons {
+    margin: 2.5rem auto;
+  }
 }
 
 .social-icons i {
-  font-size: 25px;
+  font-size: 1.563rem;
 }
 
 .contact p:hover {
